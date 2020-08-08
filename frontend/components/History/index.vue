@@ -44,16 +44,18 @@ export default {
 }
 </script>
 <style scoped>
-@media only screen and (max-width: 500px) {
-  .container {
-    display: none;
-  }
-}
 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 500px) {
+  .container {
+    display: none;
+  }
+}
+
 .title {
   margin-left: var(--padding-total);
 }
